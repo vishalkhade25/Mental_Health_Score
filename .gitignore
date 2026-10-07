@@ -1,0 +1,10 @@
+# macOS / Linux / Git Bash
+printf "__pycache__/\nvenv/\n.env\n.DS_Store\n" > .gitignore
+
+# Windows PowerShell
+@"
+__pycache__/
+venv/
+.env
+.DS_Store
+"@ | Out-File -Encoding utf8 .gitignore
