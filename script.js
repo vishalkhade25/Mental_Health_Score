@@ -3,7 +3,7 @@
 // Connects to the existing FastAPI backend: POST /predict
 // ============================================================
 
-const API_URL = "https://mental-health-score-api-xmzc.onrender.com";
+const API_URL = "https://mental-health-score-api-xmzc.onrender.com/predict";
 
 // Gauge circle circumference
 // r = 52 → 2 × PI × 52 ≈ 326.73
